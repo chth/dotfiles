@@ -1,18 +1,11 @@
 # My dotfiles.
 
-This repo contains my personal dotfiles and are heavily based on [addy](https://github.com/addyosmani/dotfiles), [paul](https://github.com/paulirish/dotfiles/) and [mathias](https://github.com/mathiasbynens/dotfiles/)'s.
+This repo contains my personal dotfiles and are heavily based on [addy](https://github.com/addyosmani/dotfiles), [paul](https://github.com/paulirish/dotfiles/) and [mathias](https://github.com/mathiasbynens/dotfiles/)'s. See their readmes.
 
 ## Some differences
 
 * modified sync.sh which will only sync the files needed
 
-
-* Browserstack shortcuts which will launch the service and automatically load up a specific OS/Browser pair with your URL. e.g `win7ie8 "http://google.com"`, `ipad3 "http://google.com"`, `ipad3ios6 "http://google.com"`,`androidnexus "http://google.com"` etc. If you would prefer to work locally similarly use `ipad3 "http://localhost:3000"`
-* Dropbox via the command-line support `dropbox upload {localFile} {remoteFile}`, `dropbox download {remoteFile} {localFile}`, `dropbox list` etc.
-* Browser and npm aliases e.g `chrome`, `safari`, `opera`, `firefox`, `chromium` and others.
-* Launch all browsers with a specific URL `browsers "http://google.com"`
-* My Sublime Text build files (Grunt, Yeoman, r.js, SASS, Less and a few others included)
-* [@cowboy](http://github.com/cowboy)'s GitHub Pull Request Helper
 
 ## install the neccessary apps
 
@@ -71,10 +64,7 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 
 ## Similar projects
 
-I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
-
-
-
+Addy recommends getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
 
 
 ## overview of files
@@ -109,7 +99,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/addyosmani/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/chth/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
